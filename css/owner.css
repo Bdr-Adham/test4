@@ -1,0 +1,144 @@
+.body{
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 125px;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.body .body-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e94560;
+}
+.body:hover .body-text {
+    opacity: 1;
+}
+.body .body-text h1{
+    font-weight: 200;
+    margin-top: 33px;
+    margin-left: 67px;
+    width: 85%;
+    color: white;
+}
+.social{
+    text-align: center;
+}
+.social i{
+    font-size: 40px;
+    padding-top: 20px;
+    color: #e94560;
+    padding-left: 40px;
+}
+/*media 1000  */
+@media (min-width:1001px) and (max-width:1100px){
+    .body .body-text h1 {
+        font-size: 25px;
+    }
+}
+/*media 900  */
+@media (min-width:901px) and (max-width:1000px){
+    .body .body-text h1 {
+        font-size: 25px;
+    }
+}
+/*media 800*/
+@media (min-width:801px) and (max-width:900px){  
+    .body .body-text h1 {
+        font-size: 25px;
+    }
+    .body .img img {
+        width: 75%;
+    }
+    .body {
+        margin-left: 21%;
+    }
+    .body .body-text {
+        width: 75%;
+    }
+}
+/*media 700*/
+@media (min-width:701px) and (max-width:800px){
+    .body .body-text h1 {
+        font-size: 25px;
+    }
+    .body .img img {
+        width: 75%;
+    }
+    .body {
+        margin-left: 21%;
+    }
+    .body .body-text {
+        width: 75%;
+    }
+}
+/*media 600*/
+@media (min-width:601px) and (max-width:700px){
+    .body .body-text h1 {
+        font-size: 25px;
+    }
+    .body .img img {
+        width: 75%;
+    }
+    .body {
+        margin-left: 21%;
+    }
+    .body .body-text {
+        width: 75%;
+    }
+}
+/*media 500*/
+@media (min-width:501px) and (max-width:600px){
+    .body .body-text h1 {
+        font-size: 25px;
+    }
+    .body .img img {
+        width: 75%;
+    }
+    .body {
+        margin-left: 21%;
+    }
+    .body .body-text {
+        width: 75%;
+    }
+}
+/*media 400 */
+@media (min-width:401px) and (max-width:500px){
+    .body .body-text h1 {
+        font-size: 25px;
+    }
+    .body .img img {
+        width: 75%;
+    }
+    .body {
+        margin-left: 21%;
+    }
+    .body .body-text {
+        width: 75%;
+    }
+}
+/*media 300*/
+@media (min-width:301px) and (max-width:400px){
+    .body .body-text h1 {
+        font-size: 14px;
+    }
+    .body .img img {
+        width: 75%;
+    }
+    .body {
+        margin-left: 21%;
+    }
+    .body .body-text {
+        width: 75%;
+    }
+}
