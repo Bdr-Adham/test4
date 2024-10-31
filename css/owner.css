@@ -1,0 +1,208 @@
+.body{
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 125px;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.body .body-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e94560;
+}
+.body:hover .body-text {
+    opacity: 1;
+}
+.body .body-text h1{
+    font-weight: 200;
+    margin-top: 33px;
+    margin-left: 67px;
+    width: 85%;
+    color: black;
+}
+.social{
+    text-align: center;
+    margin-left: -10px;
+}
+.social i{
+    font-size: 40px;
+    padding-top: 20px;
+    color: #e94560;
+    padding-left: 40px;
+}
+.payment-grid {
+    margin-top: 150px;
+}
+
+/*media more than 1250  */
+@media (min-width:1251px) and (max-width:1550px){
+    .body .body-text h1 {
+        font-size: 35px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+/*media 1200*/
+@media (min-width:1201px) and (max-width:1250px){
+    .body .body-text h1 {
+        font-size: 33px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+/*media 1100  */
+@media (min-width:1101px) and (max-width:1200px){
+    .body .body-text h1 {
+        font-size: 30px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+/*media 1000  */
+@media (min-width:1001px) and (max-width:1100px){
+    .body .body-text h1 {
+        font-size: 27px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+/*media 900  */
+@media (min-width:901px) and (max-width:1000px){
+    .body .body-text h1 {
+        font-size: 25px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+/*media 800*/
+@media (min-width:801px) and (max-width:900px){  
+    .body .body-text h1 {
+        font-size: 22px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+/*media 700*/
+@media (min-width:701px) and (max-width:800px){
+    .body .body-text h1 {
+        font-size: 17px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .body .body-text h1 {
+        margin-left: 40px;
+    }
+}
+/*media 600*/
+@media (min-width:601px) and (max-width:700px){
+    .body .body-text h1 {
+        font-size: 15px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .body .body-text h1 {
+        margin-left: 40px;
+    }
+    .payment-grid {
+        margin-top: 100px;
+    }
+    .social i {
+        font-size: 30px;
+    }
+}
+/*media 500*/
+@media (min-width:501px) and (max-width:600px){
+    .body .body-text h1 {
+        font-size: 11px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .body .body-text h1 {
+        margin-left: 40px;
+    }
+    .payment-grid {
+        margin-top: 100px;
+    }
+    .social i {
+        font-size: 30px;
+    }
+    .social {
+        margin-left: -22px;
+    }
+}
+/*media 400 */
+@media (min-width:401px) and (max-width:500px){
+    .body .body-text h1 {
+        font-size: 8px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .body .body-text h1 {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .payment-grid {
+        margin-top: 100px;
+    }
+    .social i {
+        font-size: 30px;
+    }
+    .social {
+        margin-left: -22px;
+    }
+}
+/*media 300*/
+@media (min-width:301px) and (max-width:400px){
+    .body .body-text h1 {
+        font-size: 7px;
+    }
+    .body {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .body .body-text h1 {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .payment-grid {
+        margin-top: 50px;
+    }
+    .social i {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .social {
+        margin-left: -22px;
+    }
+}
